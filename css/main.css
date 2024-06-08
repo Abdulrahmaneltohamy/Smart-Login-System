@@ -27,4 +27,5 @@ body{
 .login-group input:focus
 {
     border: 1px solid #80bdff;
+    outline: 0;
 }
