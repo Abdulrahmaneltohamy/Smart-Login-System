@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background-color: #48465C;
+   
+}
+
+.login-group , .group-welcome {
+    background-image: url(../image/simlple.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.login-group h1 , .group-welcome h1
+{
+    color: #17a2b8;
+}
+.login-group input
+{
+
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+}
+.login-group input:focus
+{
+    border: 1px solid #80bdff;
+}

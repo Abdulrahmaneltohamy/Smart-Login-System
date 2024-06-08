@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+    <div class="container my-5">
+        <div class="login-group w-75 m-auto text-center p-5">
+            <h1>Smart Login System</h1>
+            <input id="signupName" type="text" class="w-100 my-3" placeholder="Enter your name">
+            <input id="signupMail" type="email" class="w-100 my-3 is-valid" placeholder="Ex : name@gmail.com">
+            <p id="msgeMail" class="text-danger fw-bold d-none">invalid Email</p>
+            <input id="signupPassword" type="password" class="w-100 my-3" placeholder="Enter your password">
+            <p id="exist">
+                <span id="mailExist" class=" d-none text-danger fw-bold">email already exists</span>
+            </p>
+            <button onclick="signUp()" class="btn btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p class="text-white fw-bold">You have an account? <a href="./index.html"
+                    class="text-decoration-none text-white fw-bold">Sign
+                    in</a> </p>
+        </div>
+
+
+
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/signup.js"></script>
+</body>
+
+</html>
